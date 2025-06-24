@@ -31,14 +31,15 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <NavigationBar />
+        <main className="flex flex-col h-screen">
+          <NavigationBar />
+          <div className="flex grow">
 
-
-        <main className="flex grow">
-          {children}
+            {children}
+          </div>
+          <Footer />
         </main>
 
-        <Footer/>
       </body>
     </html>
   );
