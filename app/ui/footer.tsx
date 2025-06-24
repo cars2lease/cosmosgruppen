@@ -6,8 +6,8 @@ export default function Footer() {
             <div className="mx-auto max-w-screen-xl px-4 pt-16 pb-6 sm:px-6 lg:px-8 lg:pt-24">
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
                     <div>
-                        <div className="flex justify-center text-teal-600 sm:justify-start">
-                            Cosmosgruppen
+                        <div className="flex justify-center text-red-600 sm:justify-start">
+                            <h2 className="text-lg font-semibold">Cosmosgruppen</h2>
                         </div>
 
                         <p className="mt-6 max-w-md text-center leading-relaxed text-gray-500 sm:max-w-xs sm:text-left">
@@ -20,7 +20,7 @@ export default function Footer() {
                                     href="#"
                                     rel="noreferrer"
                                     target="_blank"
-                                    className="text-teal-700 transition hover:text-teal-700/75"
+                                    className="text-red-700 transition hover:text-red-700/75"
                                 >
                                     <span className="sr-only">Facebook</span>
                                     <svg className="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -38,7 +38,7 @@ export default function Footer() {
                                     href="#"
                                     rel="noreferrer"
                                     target="_blank"
-                                    className="text-teal-700 transition hover:text-teal-700/75"
+                                    className="text-red-700 transition hover:text-red-700/75"
                                 >
                                     <span className="sr-only">Instagram</span>
                                     <svg className="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -56,7 +56,7 @@ export default function Footer() {
                                     href="#"
                                     rel="noreferrer"
                                     target="_blank"
-                                    className="text-teal-700 transition hover:text-teal-700/75"
+                                    className="text-red-700 transition hover:text-red-700/75"
                                 >
                                     <span className="sr-only">Twitter</span>
                                     <svg className="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -72,7 +72,7 @@ export default function Footer() {
                                     href="#"
                                     rel="noreferrer"
                                     target="_blank"
-                                    className="text-teal-700 transition hover:text-teal-700/75"
+                                    className="text-red-700 transition hover:text-red-700/75"
                                 >
                                     <span className="sr-only">GitHub</span>
                                     <svg className="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -90,7 +90,7 @@ export default function Footer() {
                                     href="#"
                                     rel="noreferrer"
                                     target="_blank"
-                                    className="text-teal-700 transition hover:text-teal-700/75"
+                                    className="text-red-700 transition hover:text-red-700/75"
                                 >
                                     <span className="sr-only">Dribbble</span>
                                     <svg className="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -181,9 +181,9 @@ export default function Footer() {
 
                                         <span className="relative flex size-2">
                                             <span
-                                                className="absolute inline-flex h-full w-full animate-ping rounded-full bg-teal-400 opacity-75"
+                                                className="absolute inline-flex h-full w-full animate-ping rounded-full bg-red-400 opacity-75"
                                             ></span>
-                                            <span className="relative inline-flex size-2 rounded-full bg-teal-500"></span>
+                                            <span className="relative inline-flex size-2 rounded-full bg-red-500"></span>
                                         </span>
                                     </a>
                                 </li>
@@ -280,7 +280,7 @@ export default function Footer() {
                             <span className="block sm:inline">All rights reserved.</span>
 
                             <a
-                                className="inline-block text-teal-600 underline transition hover:text-teal-600/75"
+                                className="inline-block text-red-600 underline transition hover:text-red-600/75"
                                 href="#"
                             >
                                 Terms & Conditions
@@ -289,7 +289,7 @@ export default function Footer() {
                             <span>&middot;</span>
 
                             <a
-                                className="inline-block text-teal-600 underline transition hover:text-teal-600/75"
+                                className="inline-block text-red-600 underline transition hover:text-red-600/75"
                                 href="#"
                             >
                                 Privacy Policy
