@@ -1,6 +1,6 @@
 
 
-export default function Kontakt() {
+export default function Maalgruppe() {
     return (
         <p>Kontakt</p>
     )

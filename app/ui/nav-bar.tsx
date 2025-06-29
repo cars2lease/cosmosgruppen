@@ -16,11 +16,11 @@ export default function NavigationBar() {
                             </li>
 
                             <li>
-                                <Link href="/sagsbehandlere" className="text-gray-500 transition hover:text-gray-500/75">Pårørende</Link>
+                                <Link href="/familie" className="text-gray-500 transition hover:text-gray-500/75">Pårørende</Link>
                             </li>
 
                             <li>
-                                <Link href="/maalgruppe" className="text-gray-500 transition hover:text-gray-500/75">Målgruppe</Link>
+                                <Link href="/beboere" className="text-gray-500 transition hover:text-gray-500/75">Målgruppe</Link>
                             </li>
 
                             <li>
@@ -32,7 +32,7 @@ export default function NavigationBar() {
                     <div className="flex items-center gap-4">
                         <div className="sm:flex sm:gap-4">
                             <Link
-                                className="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-blue-800 transition hover:text-blue-800/75 sm:block"
+                                className="hidden rounded-md bg-gray-100 hover:bg-orange-100 text-blue-800 hover:text-orange-800 px-5 py-2.5 text-sm font-medium  transition  sm:block"
                                 href="/kontakt-os"
                             >
                                 Kontakt

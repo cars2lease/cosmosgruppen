@@ -8,19 +8,27 @@ export const metadata: Metadata = {
 export default function Kontakt() {
     return (
         <div className="w-full">
+            {/** Aktivities */}
+            <section className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
+                Aktiviteter & beskæftigelse:
+
+                Fiskeri, værksted, dyrehold, sociale events
+
+                Eksterne samarbejder og STU-forløb
+            </section>
 
             {/* Personel */}
             <section>
                 <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-3 gap-4 md:grid-cols-3 md:items-center md:gap-8">
-                        <div>
+                        <div className="aspect-square bg-blue-100 rounded-md w-full p-4">
                             <div className="max-w-lg md:max-w-none">
-                                <h2 className="text-2xl font-semibold sm:text-3xl text-blue-800/80">
-                                    Personalet
+                                <h2 className="text-2xl font-semibold sm:text-3xl text-blue-700">
+                                    Vi er her for dig
                                 </h2>
 
-                                <div className="mt-4 text-gray-700 flex flex-col space-y-1">
-                                    <p className="text-balance">
+                                <div className="mt-4 text-blue-700 flex flex-col space-y-1">
+                                    <p className="text-pretty antialiased md:subpixel-antialiased">
                                         Hos CosmosGruppen er vores personale nøje udvalgt med udgangspunkt i både
                                         faglighed og medmenneskelighed. Vi ansætter udelukkende relevant uddannet
                                         personale med dokumenteret erfaring i arbejdet med vores målgruppe.
@@ -42,12 +50,12 @@ export default function Kontakt() {
                                 alt="location"
                             />
 
-                            <div className="absolute inset-0 bg-black/75 flex items-end justify-left p-6 text-white text-xl rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <div className="absolute inset-0 bg-orange-800/75 flex items-end justify-left p-6 text-white text-xl rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                 <div>
                                     <h3>Kåre Hartmann</h3>
 
                                     <div className="flex flex-row space-x-2">
-                                        <a href="tel:28136899" className="text-sm font-mono hover:text-blue-500">+45 2813 6899</a> 
+                                        <a href="tel:28136899" className="text-sm font-mono hover:text-blue-500">+45 2813 6899</a>
                                         <a href="mailto:kh@cosmosgruppen.dk" className="text-sm font-mono hover:text-blue-500">kh@cosmosgruppen.dk</a>
                                     </div>
                                 </div>
@@ -80,7 +88,7 @@ export default function Kontakt() {
                                 alt="location"
                             />
 
-                            <div className="absolute inset-0 bg-black/75 p-6 flex items-end justify-left text-white text-xl rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <div className="absolute inset-0 bg-orange-800/75 p-6 flex items-end justify-left text-white text-xl rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                 <div>
                                     <h3>Rune Raun Jensen</h3>
 
