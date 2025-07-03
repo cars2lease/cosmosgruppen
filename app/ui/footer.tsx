@@ -137,14 +137,6 @@ export default function Footer() {
                                 <li>
                                     <a className="text-gray-700 transition hover:text-gray-700/75" href="#">For pårørende</a>
                                 </li>
-
-                                <li>
-                                    <a className="text-gray-700 transition hover:text-gray-700/75" href="#">Marketing</a>
-                                </li>
-
-                                <li>
-                                    <a className="text-gray-700 transition hover:text-gray-700/75" href="#">Google Ads</a>
-                                </li>
                             </ul>
                         </div>
 
@@ -158,24 +150,6 @@ export default function Footer() {
 
                                 <li>
                                     <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Support </a>
-                                </li>
-
-                                <li>
-                                    <a
-                                        className="group flex justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
-                                        href="#"
-                                    >
-                                        <span className="text-gray-700 transition group-hover:text-gray-700/75">
-                                            Live Chat
-                                        </span>
-
-                                        <span className="relative flex size-2">
-                                            <span
-                                                className="absolute inline-flex h-full w-full animate-ping rounded-full bg-blue-400 opacity-75"
-                                            ></span>
-                                            <span className="relative inline-flex size-2 rounded-full bg-blue-500"></span>
-                                        </span>
-                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -193,14 +167,6 @@ export default function Footer() {
                                 <li>
                                     <a className="text-gray-700 transition hover:text-gray-700/75" href="#">Medarbejdere</a>
                                 </li>
-
-                                <li>
-                                    <a className="text-gray-700 transition hover:text-gray-700/75" href="#">Marketing</a>
-                                </li>
-
-                                <li>
-                                    <a className="text-gray-700 transition hover:text-gray-700/75" href="#">Google Ads</a>
-                                </li>
                             </ul>
                         </div>
                     </div>
@@ -208,27 +174,7 @@ export default function Footer() {
 
                 <div className="mt-12 border-t border-gray-100 pt-6">
                     <div className="text-center sm:flex sm:justify-between sm:text-left">
-                        <p className="text-sm text-gray-500">
-                            <span className="block sm:inline">All rights reserved.</span>
-
-                            <a
-                                className="inline-block text-blue-800 underline transition hover:text-blue-800/75"
-                                href="#"
-                            >
-                                Terms & Conditions
-                            </a>
-
-                            <span>&middot;</span>
-
-                            <a
-                                className="inline-block text-blue-800 underline transition hover:text-blue-800/75"
-                                href="#"
-                            >
-                                Privacy Policy
-                            </a>
-                        </p>
-
-                        <p className="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">&copy; 2025 Cosmos Gruppen ApS</p>
+                        <p className="mt-4 text-sm text-blue-500 sm:order-first sm:mt-0">&copy; 2025 Cosmos Gruppen ApS</p>
                     </div>
                 </div>
             </div>
