@@ -5,35 +5,11 @@ export const metadata: Metadata = {
     description: '...',
 }
 
-const MapEmbed = () => {
-    return (
-        <iframe
-            className="contact-map"
-            title="map"
-            scrolling="no"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2648.921164217193!2d9.687420612702184!3d56.3008452495348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464bf626d167b7c1%3A0x2bff902100d5561f!2sKlosterg%C3%A5rdsvej%209%2C%208882%20F%C3%A5rvang!5e1!3m2!1sen!2sdk!4v1751571904726!5m2!1sen!2sdk"
-            width="100%"
-            height="100%"
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            frameBorder="0">
-        </iframe>
-    );
-};
-
 export default function Kontakt() {
     return (
         <div className="w-full">
-            {/** Aktivities */}
-            <section className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
-                Aktiviteter & beskæftigelse:
 
-                Fiskeri, værksted, dyrehold, sociale events
-
-                Eksterne samarbejder og STU-forløb
-            </section>
-
-
+            {/** Location */}
             <section className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
                 <p>CosmosGruppen er beliggende på adressen: Klostergårdsvej 9, 8882 Fårvang</p>
 
@@ -41,7 +17,17 @@ export default function Kontakt() {
             </section>
 
             <section className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8 h-128">
-                <MapEmbed />
+                <iframe
+                    className="contact-map"
+                    title="map"
+                    scrolling="no"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2648.921164217193!2d9.687420612702184!3d56.3008452495348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464bf626d167b7c1%3A0x2bff902100d5561f!2sKlosterg%C3%A5rdsvej%209%2C%208882%20F%C3%A5rvang!5e1!3m2!1sen!2sdk!4v1751571904726!5m2!1sen!2sdk"
+                    width="100%"
+                    height="100%"
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    frameBorder="0">
+                </iframe>
             </section>
 
             {/* Personel */}
