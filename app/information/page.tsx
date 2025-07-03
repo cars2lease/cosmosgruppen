@@ -81,7 +81,7 @@ export default function Kontakt() {
                                 <div>
                                     <h3>Kåre Hartmann</h3>
 
-                                    <div className="flex flex-row space-x-2">
+                                    <div className="flex flex-col -space-y-1">
                                         <a href="tel:28136899" className="text-sm font-mono hover:text-blue-500">+45 2813 6899</a>
                                         <a href="mailto:kh@cosmosgruppen.dk" className="text-sm font-mono hover:text-blue-500">kh@cosmosgruppen.dk</a>
                                     </div>
@@ -119,7 +119,7 @@ export default function Kontakt() {
                                 <div>
                                     <h3>Rune Raun Jensen</h3>
 
-                                    <div className="flex flex-row space-x-2">
+                                    <div className="flex flex-col -space-y-1">
                                         <a href="tel:21472092" className="text-sm hover:font-blue-500">+45 2147 2092</a>
                                         <a href="mailto:rrj@cosmosgruppen.dk" className="text-sm hover:font-blue-500">rrj@cosmosgruppen.dk</a>
                                     </div>

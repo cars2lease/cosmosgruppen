@@ -1,13 +1,13 @@
-
+import Image from "next/image"
 
 export default function Footer() {
     return (
-        <footer className="bg-[#FFFDD0]/25">
+        <footer className="bg-[#f1f2f2]">
             <div className="mx-auto max-w-screen-xl px-4 pt-16 pb-6 sm:px-6 lg:px-8 lg:pt-24">
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
                     <div>
                         <div className="flex justify-center text-blue-800 sm:justify-start">
-                            <h2 className="text-lg font-semibold">Cosmosgruppen</h2>
+                            <Image src="/logo-clean.png" alt="cosmogruppen" className="w-3/4" width={392} height={168} />
                         </div>
 
                         <p className="mt-6 max-w-md text-center leading-relaxed text-gray-500 sm:max-w-xs sm:text-left">
@@ -107,7 +107,7 @@ export default function Footer() {
 
                     <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2">
                         <div className="text-center sm:text-left">
-                            <p className="text-lg font-medium text-gray-900">Sagsbehandlere</p>
+                            <p className="text-lg font-medium text-blue-500">Sagsbehandlere</p>
 
                             <ul className="mt-8 space-y-4 text-sm">
                                 <li>
@@ -125,7 +125,7 @@ export default function Footer() {
                         </div>
 
                         <div className="text-center sm:text-left">
-                            <p className="text-lg font-medium text-gray-900">Pårørende</p>
+                            <p className="text-lg font-medium text-blue-500">Pårørende</p>
 
                             <ul className="mt-8 space-y-4 text-sm">
                                 <li>
@@ -141,7 +141,7 @@ export default function Footer() {
                         </div>
 
                         <div className="text-center sm:text-left">
-                            <p className="text-lg font-medium text-gray-900">Målgruppe</p>
+                            <p className="text-lg font-medium text-blue-500">Målgruppe</p>
 
                             <ul className="mt-8 space-y-4 text-sm">
                                 <li>
@@ -155,7 +155,7 @@ export default function Footer() {
                         </div>
 
                         <div className="text-center sm:text-left">
-                            <p className="text-lg font-medium text-gray-900">Information</p>
+                            <p className="text-lg font-medium text-blue-500">Information</p>
                             
                             <ul className="mt-8 space-y-4 text-sm">
                                 <li>
