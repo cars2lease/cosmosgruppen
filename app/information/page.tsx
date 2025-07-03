@@ -5,6 +5,22 @@ export const metadata: Metadata = {
     description: '...',
 }
 
+const MapEmbed = () => {
+    return (
+        <iframe
+            className="contact-map"
+            title="map"
+            scrolling="no"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2648.921164217193!2d9.687420612702184!3d56.3008452495348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464bf626d167b7c1%3A0x2bff902100d5561f!2sKlosterg%C3%A5rdsvej%209%2C%208882%20F%C3%A5rvang!5e1!3m2!1sen!2sdk!4v1751571904726!5m2!1sen!2sdk"
+            width="100%"
+            height="100%"
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            frameBorder="0">
+        </iframe>
+    );
+};
+
 export default function Kontakt() {
     return (
         <div className="w-full">
@@ -17,17 +33,28 @@ export default function Kontakt() {
                 Eksterne samarbejder og STU-forløb
             </section>
 
+
+            <section className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
+                <p>CosmosGruppen er beliggende på adressen: Klostergårdsvej 9, 8882 Fårvang</p>
+
+                <p>Vi ligger midt i hjertet af det midtjyske - i fredelige, naturskønne omgivelser med egen skov og fiskesøer lige uden for døren.</p>
+            </section>
+
+            <section className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8 h-128">
+                <MapEmbed />
+            </section>
+
             {/* Personel */}
             <section>
                 <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-3 gap-4 md:grid-cols-3 md:items-center md:gap-8">
-                        <div className="aspect-square bg-blue-100 rounded-md w-full p-4">
+                        <div className="aspect-square bg-blue-100 rounded-md w-full p-8">
                             <div className="max-w-lg md:max-w-none">
-                                <h2 className="text-2xl font-semibold sm:text-3xl text-blue-700">
+                                <h2 className="text-2xl font-semibold sm:text-3xl text-blue-600">
                                     Vi er her for dig
                                 </h2>
 
-                                <div className="mt-4 text-blue-700 flex flex-col space-y-1">
+                                <div className="mt-2 text-blue-600 flex flex-col space-y-1">
                                     <p className="text-pretty antialiased md:subpixel-antialiased">
                                         Hos CosmosGruppen er vores personale nøje udvalgt med udgangspunkt i både
                                         faglighed og medmenneskelighed. Vi ansætter udelukkende relevant uddannet

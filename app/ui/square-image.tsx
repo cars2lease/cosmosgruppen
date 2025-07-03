@@ -13,7 +13,7 @@ export default function SquareImageBlock(props: Props) {
             <div className="aspect-square w-full relative group">
                 <img
                     src={props.image}
-                    className="rounded-md object-cover w-full grayscale aspect-square"
+                    className="rounded-md object-cover w-full hover:grayscale aspect-square"
                     alt={props.label}
                 />
 

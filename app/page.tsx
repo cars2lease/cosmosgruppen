@@ -21,7 +21,7 @@ const Blocks: Array<Block> = [
     label: "pårørende",
     image: "https://images.unsplash.com/photo-1514415008039-efa173293080?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     text: "Vi ved, hvor vigtigt det er, at dine nærmeste er i trygge hænder. Hos CosmosGruppen møder vi beboerne med omsorg, respekt og menneskeligt nærvær - hver dag.",
-    path: "/"
+    path: "/familie"
   },
   {
     label: "sagsbehandlere",
@@ -39,7 +39,7 @@ const Blocks: Array<Block> = [
 
 export default function Home() {
   return (
-    <div className="w-full space-y-16 py-6">
+    <div className="w-full space-y-16 py-16">
       {/* Introduction */}
       <section className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8">
@@ -66,7 +66,7 @@ export default function Home() {
           <div className="aspect-video bg-blue-300">
             <img
               src="cover.png"
-              className="rounded-md object-cover h-full grayscale"
+              className="rounded-md object-cover h-full"
               alt="location"
             />
           </div>
@@ -82,7 +82,7 @@ export default function Home() {
       </section>
 
       {/** Hero Section */}
-      <section className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+      {/* <section className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="w-full bg-orange-200 rounded-md px-4 py-8 sm:px-6 lg:px-8">
           <div className="flex flex-col jusitfy-center text-center space-y-3">
             <h2 className="font-semibold text-xl text-orange-800">
@@ -94,41 +94,44 @@ export default function Home() {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/** Kompetencer */}
       <section>
         <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 reverse">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8">
-            <div className="order-last">
-              <div className="mt-4 text-gray-700 flex flex-col space-y-1">
-                <h2 className="text-2xl font-semibold sm:text-3xl text-blue-700">
+
+            <div className="order-last max-w-lg md:max-w-none bg-gray-50 rounded p-8">
+                <h2 className="text-2xl font-semibold sm:text-3xl text-gray-700">
                   Tryghed og faglighed - hver dag, hele døgnet
                 </h2>
 
-              </div>
-              <div className="max-w-lg md:max-w-none">
-                <p className="text-balance">
-                  Hos CosmosGruppen ved vi, hvor vigtigt det er, at dine nærmeste er i trygge hænder - både menneskeligt og fagligt.
-                </p>
+                <div className="mt-4 text-gray-700 flex flex-col space-y-1">
+                  <p className="text-balance font-semibold text-gray-700">
+                    Hos CosmosGruppen ved vi, hvor vigtigt det er, at dine nærmeste er i trygge hænder - både menneskeligt og fagligt.
+                  </p>
 
-                <p className="text-balance">
-                  Vi er specialiseret i støtte til voksne med særlige behov, og vores pædagogiske tilgang
-                  bygger på faglig omsorg, anerkendelse og nærvær. Med udgangspunkt i beboerens egne ønsker
-                  og forudsætninger skaber vi en hverdag med struktur, stabilitet og mulighed for personlig udvikling.
-                </p>
+                  <p className="text-balance text-gray-700">
+                    Vi er specialiseret i støtte til voksne med særlige behov, og vores pædagogiske tilgang
+                    bygger på faglig omsorg, anerkendelse og nærvær. Med udgangspunkt i beboerens egne ønsker
+                    og forudsætninger skaber vi en hverdag med struktur, stabilitet og mulighed for personlig udvikling.
+                  </p>
+                </div>
               </div>
-            </div>
 
-            <div className="order-first">
-              <img
-                src="https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                className="rounded-md object-cover h-full grayscale"
-                alt="tryghed"
-              />
+              <div className="order-first relative">
+                <img
+                  src="https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  className="rounded-md object-cover h-full grayscale"
+                  alt="tryghed"
+                />
+
+                <div className="absolute rounded-md bg-blue-700/30 inset-0 w-full z-10">
+
+                </div>
+              </div>
             </div>
           </div>
-        </div>
       </section>
     </div>
   );
