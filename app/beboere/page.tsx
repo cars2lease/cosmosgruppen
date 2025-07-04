@@ -119,13 +119,14 @@ export default function Maalgruppe() {
                         enkelte beboer.
                     </p>
                 </div>
-                <div className="grid grid-cols-1 gap-4 md:grid-cols-4 md:items-center md:gap-8">
+
+                <div className="grid grid-cols-1 gap-4 md:grid-cols-4 md:items-center md:gap-8 mb-8">
                     {Activities.map((content: any, idx: number) => <SquareImageBlock key={idx} {...content} />)}
                 </div>
 
                 <div className="mb-4">
                     <b>Et udvalg af vores interne aktiviteter:</b>
-                    <ul>
+                    <ul className="mt-2">
                         <li>Fiskeri i vores private søer</li>
                         <li>Brændeprojekter i skoven</li>
                         <li>Dyrehold - pasning og samvær med dyr</li>
@@ -136,15 +137,15 @@ export default function Maalgruppe() {
                     </ul>
                 </div>
 
-                <div>
+                <div className="py-2">
                     <b>Beskæftigelsesrettede tilbud:</b>
-                    <p>Vi tilbyder også målrettede beskæftigelsesforløb, som tager udgangspunkt i den
+                    <p className="mt-2">Vi tilbyder også målrettede beskæftigelsesforløb, som tager udgangspunkt i den
                         enkelte beboers ønsker, ressourcer og behov. Formålet er at skabe struktur i
                         hverdagen, øge selvstændighed og – hvis muligt – bane vejen for beskæftigelse eller
                         uddannelse.</p>
 
                     <b>Eksempler på beskæftigelsestilbud:</b>
-                    <ul>
+                    <ul className="mt-2">
                         <li>Interne opgaver som skovbrug, vedligehold og tømrerarbejde</li>
                         <li>Støttet deltagelse i eksterne beskæftigelsestilbud i lokalområdet</li>
                         <li>Samarbejde med virksomheder, sociale projekter, beskyttede værksteder og STU-forløb</li>
@@ -153,23 +154,23 @@ export default function Maalgruppe() {
                 </div>
             </section>
 
-            <section className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 space-y-8" id="familie">
+            <section className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 space-y-4" id="familie">
+                <b className="">For pårørende</b>
+                <p className="mt-2">
+                    Hos CosmosGruppen ved vi, hvor vigtigt det er, at dine nærmeste er i trygge hænder
+                    - både menneskeligt og fagligt. Vi er specialiseret i støtte til voksne med særlige behov, og vores tilgang bygger
+                    på faglig omsorg, anerkendelse og nærvær. Med udgangspunkt i beboerens egne
+                    ønsker og forudsætninger skaber vi en hverdag med struktur, stabilitet og mulighed
+                    for personlig udvikling. Et hjem med plads til forskellighed Beboerne bor i egne lejligheder med mulighed for privatliv og ro - og samtidig
+                    adgang til fælles aktiviteter og samvær, når de ønsker det. Vi lægger vægt på, at vores omgivelser skal føles hjemlige, trygge og tilpasset den enkelte.
+                </p>
 
-                For pårørende
-                Hos CosmosGruppen ved vi, hvor vigtigt det er, at dine nærmeste er i trygge hænder
-                – både menneskeligt og fagligt.
-                Vi er specialiseret i støtte til voksne med særlige behov, og vores tilgang bygger
-                på faglig omsorg, anerkendelse og nærvær. Med udgangspunkt i beboerens egne
-                ønsker og forudsætninger skaber vi en hverdag med struktur, stabilitet og mulighed
-                for personlig udvikling.
-                Et hjem med plads til forskellighed
-                Beboerne bor i egne lejligheder med mulighed for privatliv og ro – og samtidig
-                adgang til fælles aktiviteter og samvær, når de ønsker det. Vi lægger vægt på, at
-                vores omgivelser skal føles hjemlige, trygge og tilpasset den enkelte.
-                Du som pårørende
-                Vi ser pårørende som en vigtig del af beboerens liv og støtter op om en åben og
-                respektfuld dialog – altid tilpasset beboerens ønsker og grænser. Har du spørgsmål
-                eller behov for sparring, er du altid velkommen til at kontakte os.
+                <b>Du som pårørende</b>
+                <p className="mt-2">
+                    Vi ser pårørende som en vigtig del af beboerens liv og støtter op om en åben og
+                    respektfuld dialog – altid tilpasset beboerens ønsker og grænser. Har du spørgsmål
+                    eller behov for sparring, er du altid velkommen til at kontakte os.
+                </p>
                 <p>
                     Vi ser pårørende som en vigtig del af beboerens liv og støtter op om en åben og
                     respektfuld dialog - altid tilpasset beboerens ønsker og grænser. Har du spørgsmål

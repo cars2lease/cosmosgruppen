@@ -43,7 +43,7 @@ export default function Sagsbehandlere() {
             <section className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8">
                     <div className="max-w-lg md:max-w-none bg-blue-100 rounded p-8">
-                        <h2 className="text-2xl font-semibold sm:text-3xl text-blue-500">
+                        <h2 className="text-2xl font-semibold sm:text-2xl text-blue-500">
                             Vi er specialiseret i støtte til voksne med:
                         </h2>
 
@@ -72,21 +72,18 @@ export default function Sagsbehandlere() {
             <section className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8">
                     <div className="order-last max-w-lg md:max-w-none bg-blue-100 rounded p-8">
-                        <h2 className="text-2xl font-semibold sm:text-3xl text-blue-500">
-                            Vi er specialiseret i støtte til voksne med:
+                        <h2 className="text-2xl font-semibold sm:text-2xl text-blue-500">
+                            Vi tilbyder bl.a.:
                         </h2>
 
                         <div className="mt-4 text-gray-700 flex flex-col space-y-1">
-                            <p className="font-semibold text-blue-500">Vi tilbyder bl.a.:</p>
-                            <p className="text-balance text-blue-600">
-                                <ul>
-                                    <li>Særforanstaltninger</li>
-                                    <li>Akutpladser og observationsophold</li>
-                                    <li>Alternativ afsoning og ophold ifm. behandlingsdom</li>
-                                    <li>Individuelt tilrettelagte forløb med pædagogisk støtte og beskæftigelsesrettede aktiviteter</li>
-                                    <li>Et trygt og struktureret miljø med døgnbemanding og fast personalegruppe</li>
-                                </ul>
-                            </p>
+                            <ul className="text-blue-500">
+                                <li>Særforanstaltninger</li>
+                                <li>Akutpladser og observationsophold</li>
+                                <li>Alternativ afsoning og ophold ifm. behandlingsdom</li>
+                                <li>Individuelt tilrettelagte forløb med pædagogisk støtte og beskæftigelsesrettede aktiviteter</li>
+                                <li>Et trygt og struktureret miljø med døgnbemanding og fast personalegruppe</li>
+                            </ul>
                         </div>
                     </div>
 
@@ -100,13 +97,10 @@ export default function Sagsbehandlere() {
                 </div>
             </section>
 
-
-            <h3></h3>
-
-
-
-            <p>Vi prioriterer faglig kvalitet, tæt dialog og tydelig dokumentation i samarbejdet med den visiterende myndighed - og har erfaring med komplekse sager, herunder
-                domsrelaterede forløb.</p>
+            <section className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+                <p>Vi prioriterer faglig kvalitet, tæt dialog og tydelig dokumentation i samarbejdet med den visiterende myndighed
+                    og har erfaring med komplekse sager, herunder domsrelaterede forløb.</p>
+            </section>
         </div >
     )
 }

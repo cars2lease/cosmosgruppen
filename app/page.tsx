@@ -40,9 +40,9 @@ const Blocks: Array<Block> = [
 
 export default function Home() {
   return (
-    <div className="w-full space-y-16 py-16">
+    <div className="w-full space-y-10 py-10">
       {/* Introduction */}
-      <section className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 text-center">
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8">
           <div className="max-w-lg md:max-w-none bg-blue-100 rounded p-8">
             <h2 className="text-2xl font-semibold sm:text-3xl text-blue-500">
@@ -51,17 +51,31 @@ export default function Home() {
 
             <div className="mt-4 text-gray-700 flex flex-col space-y-1">
               <p className="font-semibold text-blue-500">Cosmosgruppen tilbyder botilbud efter servicelovens § 107 og 108.</p>
-              <p className="text-balance text-blue-600">
-                Cosmosgruppen er et botilbud inden for servicelovens §§ 107 og 108.
+              <p className="text-balance text-blue-500">
                 Vi leverer specialiseret pædagogisk omsorg og individuelt tilrettelagte aktiviteter til
-                borgere med særlige behov.
-                Cosmosgruppen samarbejder med kommuner over hele landet.
+                borgere med særlige behov. Cosmosgruppen samarbejder med kommuner over hele landet.
               </p>
+
+              <p className='text-blue-500 mt-1'>Vil du vide mere om vores botilbud så ring eller skriv til:</p>
+
+              <div className='flex flex-row justify-evenly'>
+                <div>
+                  <h3 className='text-blue-500 my-1'>Kåre Hartmann Nielsen</h3>
+                  <div className="flex flex-col -space-y-1 text-blue-500">
+                    <a href="tel:28136899" className="text-sm hover:text-orange-500">+45 2813 6899</a>
+                    <a href="mailto:kh@cosmosgruppen.dk" className="text-sm hover:text-orange-500">kh@cosmosgruppen.dk</a>
+                  </div>
+                </div>
+                <div>
+                  <h3 className='text-blue-500 my-1'>Rune Raun Jensen</h3>
+                  <div className="flex flex-col -space-y-1 text-blue-500">
+                    <a href="tel:21472092" className="text-sm hover:text-orange-500">+45 2147 2092</a>
+                    <a href="mailto:rrj@cosmosgruppen.dk" className="text-sm hover:text-orange-500">rrj@cosmosgruppen.dk</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-
-
-
           <div className="aspect-video bg-blue-300">
             <img
               src="cover.png"
@@ -80,27 +94,12 @@ export default function Home() {
         </div>
       </section>
 
-      {/** Hero Section */}
-      {/* <section className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-        <div className="w-full bg-orange-200 rounded-md px-4 py-8 sm:px-6 lg:px-8">
-          <div className="flex flex-col jusitfy-center text-center space-y-3">
-            <h2 className="font-semibold text-xl text-orange-800">
-              Et hjem med faglighed og hjerterum
-            </h2>
-            <p className="font-light text-balance text-orange-700">
-              Hos CosmosGruppen tilbyder vi specialiseret pædagogisk støtte og meningsfuld hverdag til voksne med særlige behov.
-              Vi skaber stabile rammer, nære relationer og muligheder for at leve et liv med struktur, værdighed og fællesskab.
-            </p>
-          </div>
-        </div>
-      </section> */}
-
       {/** Kompetencer */}
       <section>
         <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 reverse">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8">
 
-            <div className="order-last max-w-lg md:max-w-none bg-gray-50 rounded p-8">
+            <div className="order-last max-w-lg md:max-w-none bg-gray-50 rounded p-8 text-center">
               <h2 className="text-2xl font-semibold sm:text-3xl text-gray-700">
                 Tryghed og faglighed - hver dag, hele døgnet
               </h2>
@@ -126,7 +125,6 @@ export default function Home() {
               />
 
               <div className="absolute rounded-md bg-blue-700/30 inset-0 w-full z-10">
-
               </div>
             </div>
           </div>

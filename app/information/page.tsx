@@ -44,7 +44,7 @@ export default function Kontakt() {
 
                             <div className="absolute inset-0 bg-orange-800/75 flex items-end justify-left p-6 text-white text-xl rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                 <div>
-                                    <h3>Kåre Hartmann</h3>
+                                    <h3>Kåre Hartmann Nielsen</h3>
 
                                     <div className="flex flex-col -space-y-1">
                                         <a href="tel:28136899" className="text-sm font-mono hover:text-blue-500">+45 2813 6899</a>
