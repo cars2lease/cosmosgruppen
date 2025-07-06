@@ -40,7 +40,7 @@ export default function Sagsbehandlere() {
         <div className="w-full space-y-8 py-16">
 
             <section className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-                <h2 className="text-xl font-semibold sm:text-xl">CosmosGruppen er et godkendt botilbud efter Servicelovens §§ 107 og 108.</h2>
+                <h2 className="text-xl font-semibold sm:text-xl">Cosmos Gruppen er et godkendt botilbud efter Servicelovens §§ 107 og 108.</h2>
 
                 <p className="mt-2">
                     Vi er specialiseret i støtte til voksne med:
@@ -82,7 +82,7 @@ export default function Sagsbehandlere() {
             <section className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 space-y-4">
                 <h2 className="text-2xl font-semibold sm:text-2xl">Målgruppe</h2>
                 <p>
-                    CosmosGruppen henvender sig til voksne over 18 år med udviklingsforstyrrelser,
+                    Cosmos Gruppen henvender sig til voksne over 18 år med udviklingsforstyrrelser,
                     psykiatriske diagnoser eller kognitive funktionsnedsættelser - herunder også
                     borgere, der er domsanbragte.
                 </p>
@@ -109,7 +109,7 @@ export default function Sagsbehandlere() {
                 <div className="mb-8">
                     <b className="text-2xl font-semibold sm:text-2xl">Aktiviteter & beskæftigelse</b>
                     <p className="mt-4">
-                        Hos CosmosGruppen tilbyder vi både meningsfulde daglige aktiviteter på matriklen
+                        Hos Cosmos Gruppen tilbyder vi både meningsfulde daglige aktiviteter på matriklen
                         og beskæftigelsesrettede forløb i samarbejde med eksterne aktører. Fælles for alle
                         aktiviteter er, at de understøtter trivsel, mestring og personlig udvikling hos den
                         enkelte beboer.

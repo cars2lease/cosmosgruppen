@@ -41,7 +41,7 @@ export default function Maalgruppe() {
             <section className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 space-y-4" id="familie">
                 <b className="text-2xl font-semibold sm:text-2xl">For pårørende</b>
                 <p className="mt-2">
-                    Hos CosmosGruppen ved vi, hvor vigtigt det er, at dine nærmeste er i trygge hænder
+                    Hos Cosmos Gruppen ved vi, hvor vigtigt det er, at dine nærmeste er i trygge hænder
                     - både menneskeligt og fagligt. Vi er specialiseret i støtte til voksne med særlige behov, og vores tilgang bygger
                     på faglig omsorg, anerkendelse og nærvær. Med udgangspunkt i beboerens egne
                     ønsker og forudsætninger skaber vi en hverdag med struktur, stabilitet og mulighed
@@ -83,7 +83,7 @@ export default function Maalgruppe() {
                     </p>
 
                     <p>
-                        CosmosGruppen rummer også et træningslokale, værksted og store fællesrum, som
+                        Cosmos Gruppen rummer også et træningslokale, værksted og store fællesrum, som
                         giver mulighed for bevægelse, kreativ udfoldelse og fællesskab - altid på beboerens
                         præmisser.
                     </p>

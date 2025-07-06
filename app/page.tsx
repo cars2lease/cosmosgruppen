@@ -18,7 +18,7 @@ const Blocks: Array<Block> = [
   {
     label: "pårørende",
     image: "https://images.unsplash.com/photo-1514415008039-efa173293080?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    text: "Vi ved, hvor vigtigt det er, at dine nærmeste er i trygge hænder. Hos CosmosGruppen møder vi beboerne med omsorg, respekt og menneskeligt nærvær - hver dag.",
+    text: "Vi ved, hvor vigtigt det er, at dine nærmeste er i trygge hænder. Hos Cosmos Gruppen møder vi beboerne med omsorg, respekt og menneskeligt nærvær - hver dag.",
     path: "/beboere#familiy",
     hover: true,
   },
@@ -53,12 +53,12 @@ export default function Home() {
 
       <div className='flex flex-row mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 py-12 text-center'>
         <div className="w-1/2 ">
-          <p className="font-semibold">Cosmosgruppen er et botilbud inden for servicelovens §§ 107 og 108.</p>
+          <p className="font-semibold">Cosmos Gruppen er et botilbud inden for servicelovens §§ 107 og 108.</p>
           <p className="text-balance mt-2">
             Vi leverer specialiseret pædagogisk omsorg og individuelt tilrettelagte aktiviteter til borgere med særlige behov.
           </p>
 
-          <p className='mt-2'>Cosmosgruppen samarbejder med kommuner over hele landet.</p>
+          <p className='mt-2'>Cosmos Gruppen samarbejder med kommuner over hele landet.</p>
           <p className='mt-2'>Vil du vide mere om vores botilbud så ring eller skriv til:</p>
 
           <div className='flex flex-row justify-evenly mt-4'>

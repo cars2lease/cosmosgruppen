@@ -40,7 +40,7 @@ export default function Kontakt() {
                 <h2 className="text-2xl font-semibold sm:text-3xl">
                     Placering
                 </h2>
-                <p>CosmosGruppen er beliggende på adressen: Klostergårdsvej 9, 8882 Fårvang</p>
+                <p>Cosmos Gruppen er beliggende på adressen: Klostergårdsvej 9, 8882 Fårvang</p>
                 <p>Vi ligger midt i hjertet af det midtjyske - i fredelige, naturskønne omgivelser med egen skov og fiskesøer lige uden for døren.</p>
             </section>
 

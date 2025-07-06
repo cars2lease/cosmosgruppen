@@ -16,7 +16,7 @@ export default function Kontakt() {
 
                     <div className="mt-2 flex flex-col space-y-2">
                         <p className="text-pretty antialiased md:subpixel-antialiased">
-                            Hos CosmosGruppen er vores personale nøje udvalgt med udgangspunkt i både
+                            Hos Cosmos Gruppen er vores personale nøje udvalgt med udgangspunkt i både
                             faglighed og medmenneskelighed. Vi ansætter udelukkende relevant uddannet
                             personale med dokumenteret erfaring i arbejdet med vores målgruppe.
                         </p>
@@ -70,7 +70,7 @@ export default function Kontakt() {
                 <h2 className="text-2xl font-semibold sm:text-3xl">
                     Placering
                 </h2>
-                <p>CosmosGruppen er beliggende på adressen: Klostergårdsvej 9, 8882 Fårvang</p>
+                <p>Cosmos Gruppen er beliggende på adressen: Klostergårdsvej 9, 8882 Fårvang</p>
                 <p>Vi ligger midt i hjertet af det midtjyske - i fredelige, naturskønne omgivelser med egen skov og fiskesøer lige uden for døren.</p>
             </section>
 
