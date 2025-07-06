@@ -23,6 +23,10 @@ export default function NavigationBar() {
                             <li>
                                 <Link href="/information" className="text-gray-500 transition hover:text-gray-500/75">Information</Link>
                             </li>
+
+                            <li>
+                                <Link href="/billeder" className="text-gray-500 transition hover:text-gray-500/75">Billeder</Link>
+                            </li>
                         </ul>
                     </nav>
 
