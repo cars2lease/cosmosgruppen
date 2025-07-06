@@ -1,13 +1,20 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: 'Billeder | Cosmos Gruppen',
+    description: '...',
+}
+
 const Images = [
     {
         label: "",
         image: "/pictures/image_1.png",
-        text: "Billede 1",
+        text: "Omkringliggende Natur",
     },
     {
         label: "",
         image: "/pictures/image_2.png",
-        text: "Billede 2",
+        text: "Ejendommen",
     },
 ]
 

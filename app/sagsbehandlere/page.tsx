@@ -38,8 +38,44 @@ const Activities = [
 export default function Sagsbehandlere() {
     return (
         <div className="w-full space-y-8 py-16">
+
             <section className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-                <h2>CosmosGruppen er et godkendt botilbud efter Servicelovens §§ 107 og 108.</h2>
+                <h2 className="text-xl font-semibold sm:text-xl">CosmosGruppen er et godkendt botilbud efter Servicelovens §§ 107 og 108.</h2>
+
+                <p className="mt-2">
+                    Vi er specialiseret i støtte til voksne med:
+                </p>
+
+                <div className="mt-4 flex flex-col space-y-1">
+                    <ul className="text-balance list-disc ml-6">
+                        <li>Autisme, ADHD, skizofreni, gennemgribende udviklingsforstyrrelser eller psykisk udviklingshæmning</li>
+                        <li>Problemskabende adfærd</li>
+                        <li>Domsanbringelse efter straffelovens §§ 68, 69 og 70</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+                <h2 className="text-xl font-semibold sm:text-xl">
+                    Vi tilbyder bl.a.:
+                </h2>
+
+                <div className="mt-4 flex flex-col space-y-1">
+                    <ul className="list-disc ml-6">
+                        <li>Særforanstaltninger</li>
+                        <li>Akutpladser og observationsophold</li>
+                        <li>Alternativ afsoning og ophold ifm. behandlingsdom</li>
+                        <li>Individuelt tilrettelagte forløb med pædagogisk støtte og beskæftigelsesrettede aktiviteter</li>
+                        <li>Et trygt og struktureret miljø med døgnbemanding og fast personalegruppe</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+                <p>
+                    Vi prioriterer faglig kvalitet, tæt dialog og tydelig dokumentation i samarbejdet med den visiterende myndighed
+                    og har erfaring med komplekse sager, herunder domsrelaterede forløb.
+                </p>
             </section>
 
             {/* Introduction */}
@@ -70,55 +106,14 @@ export default function Sagsbehandlere() {
             </section>
 
             <section className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-                <h2 className="text-xl font-semibold sm:text-xl">
-                    Vi er specialiseret i støtte til voksne med:
-                </h2>
-
-                <div className="mt-4 text-gray-700 flex flex-col space-y-1">
-                    <ul className="text-balance list-disc ml-6">
-                        <li>Autisme, ADHD, skizofreni, gennemgribende udviklingsforstyrrelser eller psykisk udviklingshæmning</li>
-                        <li>Problemskabende adfærd</li>
-                        <li>Domsanbringelse efter straffelovens §§ 68, 69 og 70</li>
-                    </ul>
-                </div>
-            </section>
-
-            <section className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-                <h2 className="text-xl font-semibold sm:text-xl">
-                    Vi tilbyder bl.a.:
-                </h2>
-
-                <div className="mt-4 text-gray-700 flex flex-col space-y-1">
-                    <ul className="list-disc ml-6">
-                        <li>Særforanstaltninger</li>
-                        <li>Akutpladser og observationsophold</li>
-                        <li>Alternativ afsoning og ophold ifm. behandlingsdom</li>
-                        <li>Individuelt tilrettelagte forløb med pædagogisk støtte og beskæftigelsesrettede aktiviteter</li>
-                        <li>Et trygt og struktureret miljø med døgnbemanding og fast personalegruppe</li>
-                    </ul>
-                </div>
-            </section>
-
-            <section className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-                <p>
-                    Vi prioriterer faglig kvalitet, tæt dialog og tydelig dokumentation i samarbejdet med den visiterende myndighed
-                    og har erfaring med komplekse sager, herunder domsrelaterede forløb.
-                </p>
-            </section>
-
-            <section className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
                 <div className="mb-8">
                     <b className="text-2xl font-semibold sm:text-2xl">Aktiviteter & beskæftigelse</b>
-                    <p className="text-balance mt-4">
+                    <p className="mt-4">
                         Hos CosmosGruppen tilbyder vi både meningsfulde daglige aktiviteter på matriklen
                         og beskæftigelsesrettede forløb i samarbejde med eksterne aktører. Fælles for alle
                         aktiviteter er, at de understøtter trivsel, mestring og personlig udvikling hos den
                         enkelte beboer.
                     </p>
-                </div>
-
-                <div className="grid grid-cols-1 gap-4 md:grid-cols-4 md:items-center md:gap-8 mb-8">
-                    {Activities.map((content: any, idx: number) => <SquareImageBlock key={idx} {...content} />)}
                 </div>
 
                 <div className="mb-8">
@@ -132,6 +127,10 @@ export default function Sagsbehandlere() {
                         <li>Træningslokale - fysisk aktivitet og sundhed</li>
                         <li>Sociale events - fx film, spil, gåture og bålhygge i naturen</li>
                     </ul>
+                </div>
+
+                <div className="grid grid-cols-1 gap-4 md:grid-cols-4 md:items-center md:gap-8 mb-8">
+                    {Activities.map((content: any, idx: number) => <SquareImageBlock key={idx} {...content} />)}
                 </div>
 
                 <div className="py-4 space-y-4">
