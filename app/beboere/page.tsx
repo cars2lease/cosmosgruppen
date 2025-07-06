@@ -63,7 +63,6 @@ export default function Maalgruppe() {
                         Beboerne bor i egne lejligheder med mulighed for privatliv og ro - og samtidig
                         adgang til fælles aktiviteter og samvær, når de ønsker det. Vi lægger vægt på, at
                         vores omgivelser skal føles hjemlige, trygge og tilpasset den enkelte.
-                        Du som pårørende
                     </p>
                 </div>
 
