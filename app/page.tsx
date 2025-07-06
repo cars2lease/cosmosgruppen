@@ -42,11 +42,11 @@ export default function Home() {
   return (
     <div className="w-full space-y-10 pb-10">
       <div
-        className="mx-auto w-screen"
+        className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 space-y-4 mt-8"
       >
         <img
           src="cover.png"
-          className="rounded-md object-cover h-[600px] w-full"
+          className="rounded-md object-cover h-[512px] w-full"
           alt="location"
         />
       </div>
