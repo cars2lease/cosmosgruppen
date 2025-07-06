@@ -2,24 +2,18 @@
 
 export default function Page() {
     return (
-        <section className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8 grid grid-cols-2 xl:grid-cols-4 gap-2">
+        <section className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8 grid grid-cols-2 xl:grid-cols-3 gap-4">
             {[...Array(8)].map((_, key) => (
                 <a href="#" className="group block overflow-hidden">
                     <img
                         src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
                         alt=""
-                        className="w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+                        className="w-full object-cover rounded aspect-square"
                     />
 
-                    <div className="relative bg-white pt-3">
-                        <h3 className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
-                            Basic Tee
-                        </h3>
-
+                    <div className="relative py-2">
                         <p className="mt-2">
-                            <span className="sr-only"> Regular Price </span>
-
-                            <span className="tracking-wider text-gray-900"> £24.00 GBP </span>
+                            Regular Price
                         </p>
                     </div>
                 </a>

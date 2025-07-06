@@ -48,13 +48,11 @@ export default function Sagsbehandlere() {
                         </h2>
 
                         <div className="mt-4 text-gray-700 flex flex-col space-y-1">
-                            <p className="text-balance text-blue-600">
-                                <ul>
-                                    <li>Autisme, ADHD, skizofreni, gennemgribende udviklingsforstyrrelser eller psykisk udviklingshæmning</li>
-                                    <li>Problemskabende adfærd</li>
-                                    <li>Domsanbringelse efter straffelovens §§ 68, 69 og 70</li>
-                                </ul>
-                            </p>
+                            <ul className="text-balance text-blue-600">
+                                <li>Autisme, ADHD, skizofreni, gennemgribende udviklingsforstyrrelser eller psykisk udviklingshæmning</li>
+                                <li>Problemskabende adfærd</li>
+                                <li>Domsanbringelse efter straffelovens §§ 68, 69 og 70</li>
+                            </ul>
                         </div>
                     </div>
 
