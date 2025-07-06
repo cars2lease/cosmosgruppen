@@ -27,32 +27,6 @@ const Apartments = [
     },
 ]
 
-const Activities = [
-    {
-        label: "",
-        image: "/activities/bonfire.png",
-        text: "",
-        path: "/"
-    },
-    {
-        label: "",
-        image: "/activities/tractor.JPG",
-        text: "",
-        path: "/"
-    },
-    {
-        label: "",
-        image: "/activities/animals.JPG",
-        text: "",
-        path: "/"
-    },
-    {
-        label: "",
-        image: "/activities/plant-2.png",
-        text: "",
-        path: "/"
-    },
-]
 
 export default function Maalgruppe() {
     return (
@@ -106,51 +80,6 @@ export default function Maalgruppe() {
                         giver mulighed for bevægelse, kreativ udfoldelse og fællesskab - altid på beboerens
                         præmisser.
                     </p>
-                </div>
-            </section>
-
-            <section className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-                <div className="mb-4">
-                    <b>Aktiviteter & beskæftigelse</b>
-                    <p>
-                        Hos CosmosGruppen tilbyder vi både meningsfulde daglige aktiviteter på matriklen
-                        og beskæftigelsesrettede forløb i samarbejde med eksterne aktører. Fælles for alle
-                        aktiviteter er, at de understøtter trivsel, mestring og personlig udvikling hos den
-                        enkelte beboer.
-                    </p>
-                </div>
-
-                <div className="grid grid-cols-1 gap-4 md:grid-cols-4 md:items-center md:gap-8 mb-8">
-                    {Activities.map((content: any, idx: number) => <SquareImageBlock key={idx} {...content} />)}
-                </div>
-
-                <div className="mb-4">
-                    <b>Et udvalg af vores interne aktiviteter:</b>
-                    <ul className="mt-2">
-                        <li>Fiskeri i vores private søer</li>
-                        <li>Brændeprojekter i skoven</li>
-                        <li>Dyrehold - pasning og samvær med dyr</li>
-                        <li>Værkstedsaktiviteter - kreativt og håndværkspræget arbejde</li>
-                        <li>Fællesspisning - madlavning, måltider og samvær</li>
-                        <li>Træningslokale - fysisk aktivitet og sundhed</li>
-                        <li>Sociale events - fx film, spil, gåture og bålhygge i naturen</li>
-                    </ul>
-                </div>
-
-                <div className="py-2">
-                    <b>Beskæftigelsesrettede tilbud:</b>
-                    <p className="mt-2">Vi tilbyder også målrettede beskæftigelsesforløb, som tager udgangspunkt i den
-                        enkelte beboers ønsker, ressourcer og behov. Formålet er at skabe struktur i
-                        hverdagen, øge selvstændighed og – hvis muligt – bane vejen for beskæftigelse eller
-                        uddannelse.</p>
-
-                    <b>Eksempler på beskæftigelsestilbud:</b>
-                    <ul className="mt-2">
-                        <li>Interne opgaver som skovbrug, vedligehold og tømrerarbejde</li>
-                        <li>Støttet deltagelse i eksterne beskæftigelsestilbud i lokalområdet</li>
-                        <li>Samarbejde med virksomheder, sociale projekter, beskyttede værksteder og STU-forløb</li>
-                    </ul>
-                    <p>Forløbene tilpasses individuelt og evalueres løbende i samarbejde med beboeren og relevante samarbejdspartnere.</p>
                 </div>
             </section>
 
