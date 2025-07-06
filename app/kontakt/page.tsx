@@ -7,42 +7,12 @@ export const metadata: Metadata = {
 
 export default function Kontakt() {
     return (
-        <div className="w-full space-y-8 pb-8">
-            <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 p-8">
-                <div className="max-w-lg md:max-w-none">
-                    <h2 className="text-2xl font-semibold sm:text-3xl">
-                        Personale
-                    </h2>
-
-                    <div className="mt-2 flex flex-col space-y-2">
-                        <p className="text-pretty antialiased md:subpixel-antialiased">
-                            Hos CosmosGruppen er vores personale nøje udvalgt med udgangspunkt i både
-                            faglighed og medmenneskelighed. Vi ansætter udelukkende relevant uddannet
-                            personale med dokumenteret erfaring i arbejdet med vores målgruppe.
-                        </p>
-
-                        <p className="text-pretty antialiased md:subpixel-antialiased">
-                            Vi lægger vægt på engagement og nærvær og på, at vores medarbejdere brænder
-                            for at gøre en forskel for beboerne. Derudover forventer vi faglig udvikling i form af
-                            supervision, kurser og temadage, så vi altid sikrer en høj og opdateret faglig
-                            standard.
-                        </p>
-
-                        <p className="text-pretty antialiased md:subpixel-antialiased">
-                            Personalet arbejder ud fra en struktureret, anerkendende og relationsbaseret
-                            tilgang, og vi prioriterer et tæt tværfagligt samarbejde for at skabe en
-                            helhedsorienteret indsats omkring hver enkelt beboer.
-                        </p>
-
-                        <p className="text-pretty antialiased md:subpixel-antialiased">
-                            Vi er altid på udkig efter kvalificerede medarbejdere, og hvis du kan se dig selv i
-                            ovenstående, er du meget velkommen til at kontakte os eller sende en ansøgning.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            
+        <div className="w-full space-y-8 py-8">
             <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+                <h2 className="text-2xl font-semibold sm:text-3xl">
+                    Kontakt
+                </h2>
+
                 <div className="max-w-lg md:max-w-none">
                     <p className='mb-4'>Vil du vide mere om vores botilbud så ring eller skriv til:</p>
 

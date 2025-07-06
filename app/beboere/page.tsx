@@ -49,7 +49,6 @@ export default function Maalgruppe() {
                     adgang til fælles aktiviteter og samvær, når de ønsker det. Vi lægger vægt på, at vores omgivelser skal føles hjemlige, trygge og tilpasset den enkelte.
                 </p>
 
-                <b className="text-xl font-semibold sm:text-xl">Du som pårørende</b>
                 <p className="mt-2">
                     Vi ser pårørende som en vigtig del af beboerens liv og støtter op om en åben og
                     respektfuld dialog – altid tilpasset beboerens ønsker og grænser. Har du spørgsmål
