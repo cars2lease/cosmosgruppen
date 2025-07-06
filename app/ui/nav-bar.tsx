@@ -3,33 +3,33 @@ import Image from 'next/image'
 
 export default function NavigationBar() {
     return (
-        <header className="bg-[#FFFDD0]/25">
+        <header className="bg-[#FFFDD0]/25 py-3">
             <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
                 <a className="block text-blue-800" href="/">
-                    <Image src="/logo-clean.png" alt="cosmogruppen" className="w-1/4" width={392} height={168} />
+                    <Image src="/logo-clean.png" alt="cosmogruppen" className="w-2/5" width={392} height={168} />
                 </a>
 
                 <div className="flex flex-1 items-center justify-end md:justify-between">
                     <nav aria-label="Global" className="hidden md:block">
                         <ul className="flex items-center gap-6 text-sm">
                             <li>
-                                <Link href="/" className="text-gray-500 transition hover:text-gray-500/75">Forside</Link>
+                                <Link href="/" className="text-gray-500 transition hover:text-gray-500/75 text-lg">Forside</Link>
                             </li>
 
                             <li>
-                                <Link href="/beboere" className="text-gray-500 transition hover:text-gray-500/75">Beboere</Link>
+                                <Link href="/beboere" className="text-gray-500 transition hover:text-gray-500/75 text-lg">Beboere</Link>
                             </li>
 
                             <li>
-                                <Link href="/sagsbehandlere" className="text-gray-500 transition hover:text-gray-500/75">Sagsbehandlere</Link>
+                                <Link href="/sagsbehandlere" className="text-gray-500 transition hover:text-gray-500/75 text-lg">Sagsbehandlere</Link>
                             </li>
 
                             <li>
-                                <Link href="/information" className="text-gray-500 transition hover:text-gray-500/75">Information</Link>
+                                <Link href="/information" className="text-gray-500 transition hover:text-gray-500/75 text-lg">Information</Link>
                             </li>
 
                             <li>
-                                <Link href="/billeder" className="text-gray-500 transition hover:text-gray-500/75">Billeder</Link>
+                                <Link href="/billeder" className="text-gray-500 transition hover:text-gray-500/75 text-lg">Billeder</Link>
                             </li>
                         </ul>
                     </nav>
@@ -37,7 +37,7 @@ export default function NavigationBar() {
                     <div className="flex items-center gap-4">
                         <div className="sm:flex sm:gap-4">
                             <Link
-                                className="hidden rounded-md bg-gray-100 hover:bg-orange-100 text-blue-800 hover:text-orange-800 px-5 py-2.5 text-sm font-medium  transition  sm:block"
+                                className="hidden rounded-md bg-gray-100 hover:bg-orange-100 text-lg text-blue-800 hover:text-orange-800 px-5 py-2.5 font-medium  transition  sm:block"
                                 href="/kontakt"
                             >
                                 Kontakt
