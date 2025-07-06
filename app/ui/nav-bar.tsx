@@ -38,7 +38,7 @@ export default function NavigationBar() {
                         <div className="sm:flex sm:gap-4">
                             <Link
                                 className="hidden rounded-md bg-gray-100 hover:bg-orange-100 text-blue-800 hover:text-orange-800 px-5 py-2.5 text-sm font-medium  transition  sm:block"
-                                href="/information"
+                                href="/kontakt"
                             >
                                 Kontakt
                             </Link>
