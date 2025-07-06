@@ -7,8 +7,8 @@ export const metadata: Metadata = {
 
 export default function Kontakt() {
     return (
-        <div className="w-full space-y-8">
-            <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 pt-8">
+        <div className="w-full space-y-8 pb-8">
+            <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 p-8">
                 <div className="max-w-lg md:max-w-none">
                     <h2 className="text-2xl font-semibold sm:text-3xl">
                         Personale
@@ -38,6 +38,28 @@ export default function Kontakt() {
                             Vi er altid på udkig efter kvalificerede medarbejdere, og hvis du kan se dig selv i
                             ovenstående, er du meget velkommen til at kontakte os eller sende en ansøgning.
                         </p>
+                    </div>
+                </div>
+            </div>
+            <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+                <div className="max-w-lg md:max-w-none">
+                    <p className='my-4'>Vil du vide mere om vores botilbud så ring eller skriv til:</p>
+
+                    <div className='flex flex-col space-y-4'>
+                        <div>
+                            <h3 className='my-1'>Kåre Hartmann Nielsen</h3>
+                            <div className="flex flex-col -space-y-1 ">
+                                <a href="tel:28136899" className="text-sm hover:text-orange-500">+45 2813 6899</a>
+                                <a href="mailto:kh@cosmosgruppen.dk" className="text-sm hover:text-orange-500">kh@cosmosgruppen.dk</a>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 className=' my-1'>Rune Raun Jensen</h3>
+                            <div className="flex flex-col -space-y-1 ">
+                                <a href="tel:21472092" className="text-sm hover:text-orange-500">+45 2147 2092</a>
+                                <a href="mailto:rrj@cosmosgruppen.dk" className="text-sm hover:text-orange-500">rrj@cosmosgruppen.dk</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
