@@ -45,7 +45,7 @@ export default function Maalgruppe() {
                     - både menneskeligt og fagligt. Vi er specialiseret i støtte til voksne med særlige behov, og vores tilgang bygger
                     på faglig omsorg, anerkendelse og nærvær. Med udgangspunkt i beboerens egne
                     ønsker og forudsætninger skaber vi en hverdag med struktur, stabilitet og mulighed
-                    for personlig udvikling. Et hjem med plads til forskellighed Beboerne bor i egne lejligheder med mulighed for privatliv og ro - og samtidig
+                    for personlig udvikling. Beboerne bor i egne lejligheder med mulighed for privatliv og ro - og samtidig
                     adgang til fælles aktiviteter og samvær, når de ønsker det. Vi lægger vægt på, at vores omgivelser skal føles hjemlige, trygge og tilpasset den enkelte.
                 </p>
 
