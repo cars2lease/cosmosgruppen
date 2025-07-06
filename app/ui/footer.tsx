@@ -75,7 +75,7 @@ export default function Footer() {
                                 </li>
 
                                 <li>
-                                    <a className="text-gray-700 transition hover:text-gray-700/75" href="#">Medarbejdere</a>
+                                    <a className="text-gray-700 transition hover:text-gray-700/75" href="#">Personale</a>
                                 </li>
                             </ul>
                         </div>

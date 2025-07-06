@@ -24,7 +24,7 @@ export default function Kontakt() {
                                         Hos CosmosGruppen er vores personale nøje udvalgt med udgangspunkt i både
                                         faglighed og medmenneskelighed. Vi ansætter udelukkende relevant uddannet
                                         personale med dokumenteret erfaring i arbejdet med vores målgruppe.
-                                        Vi lægger vægt på engagement og nærvær og på, at vores medarbejdere brænder
+                                        Vi lægger vægt på engagement og nærvær og på, at vores personale brænder
                                         for at gøre en forskel for beboerne. Derudover forventer vi faglig udvikling i form af
                                         supervision, kurser og temadage, så vi altid sikrer en høj og opdateret faglig
                                         standard.
