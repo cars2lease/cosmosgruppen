@@ -53,14 +53,12 @@ export default function Home() {
 
       <div className='flex flex-row mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 py-12 text-center'>
         <div className="w-1/2 ">
-          <p className="font-semibold">Cosmosgruppen tilbyder botilbud efter servicelovens § 107 og 108.</p>
+          <p className="font-semibold">Cosmosgruppen er et botilbud inden for servicelovens §§ 107 og 108.</p>
           <p className="text-balance mt-2">
-            Vi leverer specialiseret pædagogisk omsorg og individuelt tilrettelagte aktiviteter til
-            borgere med særlige behov.
+            Vi leverer specialiseret pædagogisk omsorg og individuelt tilrettelagte aktiviteter til borgere med særlige behov.
           </p>
 
           <p className='mt-2'>Cosmosgruppen samarbejder med kommuner over hele landet.</p>
-
           <p className='mt-2'>Vil du vide mere om vores botilbud så ring eller skriv til:</p>
 
           <div className='flex flex-row justify-evenly mt-4'>
