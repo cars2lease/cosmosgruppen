@@ -51,8 +51,8 @@ export default function Home() {
         />
       </div>
 
-      <div className='flex flex-row mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 py-12 text-center'>
-        <div className="w-1/2 ">
+      <div className='flex flex-col md:flex-row mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 py-12 text-center space-y-8 md:space-y-0'>
+        <div className="md:w-1/2">
           <p className="font-semibold">Cosmos Gruppen er et botilbud inden for servicelovens §§ 107 og 108.</p>
           <p className="text-balance mt-2">
             Vi leverer specialiseret pædagogisk omsorg og individuelt tilrettelagte aktiviteter til borgere med særlige behov.
@@ -78,7 +78,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="w-1/2">
+        <div className="md:w-1/2 mt-8 md:mt-0">
           <div className="aspect-video flex justify-center">
             <img
               src="logo.png"
