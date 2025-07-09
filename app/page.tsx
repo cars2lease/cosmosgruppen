@@ -46,7 +46,7 @@ export default function Home() {
       >
         <img
           src="cover.png"
-          className="rounded-md object-cover h-[435px] w-full"
+          className="rounded-md md:object-cover max-h-[435px] w-full"
           alt="location"
         />
       </div>
