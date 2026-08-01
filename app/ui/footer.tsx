@@ -7,6 +7,7 @@ export default function Footer() {
                 <div className="border-t border-gray-100">
                     <div className="text-center sm:flex sm:justify-between sm:text-left">
                         <p className="mt-4 text-sm text-blue-500 sm:order-first sm:mt-0">&copy; 2025 Cosmos Gruppen ApS</p>
+                        <a href="/tilsyn/tilsynsrapport_08_2026.pdf">Tilsynsrapport</a>
                     </div>
                 </div>
             </div>
