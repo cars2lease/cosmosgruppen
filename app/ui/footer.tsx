@@ -10,7 +10,7 @@ export default function Footer() {
                         <a
                             href="/tilsyn/tilsynsrapport_08_2026.pdf"
                             download
-                            className="mt-4 text-sm text-blue-500 hover:underline"
+                            className="mt-4 text-sm text-blue-500 sm:order-first sm:mt-0"
                         >
                             Tilsynsrapport
                         </a>
