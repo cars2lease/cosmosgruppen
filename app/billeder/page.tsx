@@ -16,6 +16,51 @@ const Images = [
         image: "/pictures/image_2.png",
         text: "Ejendommen",
     },
+    {
+        label: "",
+        image: "/outdoor/image-1.jpg",
+        text: "Omkringliggende Natur",
+    },
+    {
+        label: "",
+        image: "/outdoor/image-2.jpg",
+        text: "Omkringliggende Natur",
+    },
+    {
+        label: "",
+        image: "/outdoor/image-3.jpg",
+        text: "Omkringliggende Natur",
+    },
+    {
+        label: "",
+        image: "/outdoor/image-4.jpg",
+        text: "Omkringliggende Natur",
+    },
+    {
+        label: "",
+        image: "/outdoor/image-5.jpg",
+        text: "Omkringliggende Natur",
+    },
+    {
+        label: "",
+        image: "/outdoor/image-6.jpg",
+        text: "Omkringliggende Natur",
+    },
+    {
+        label: "",
+        image: "/outdoor/image-7.jpg",
+        text: "Omkringliggende Natur",
+    },
+    {
+        label: "",
+        image: "/outdoor/image-8.jpg",
+        text: "Omkringliggende Natur",
+    },
+        {
+        label: "",
+        image: "/outdoor/image-9.jpeg",
+        text: "Omkringliggende Natur",
+    },
 ]
 
 export default function Page() {
